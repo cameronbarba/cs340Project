@@ -2,6 +2,37 @@
 <html>
 <head>
 	<title>Players</title>
+
+	<style type="text/css">
+		body {
+			margin: 0;
+		}
+		a {
+			color: #0000EE;
+		}
+		.menu {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			height: 10vh;
+		}
+		.menu-links {
+			padding: 2%;
+		}
+		
+		h1 {
+			text-align: center;
+		}
+		table {
+			text-align: center;
+			padding: 1%;
+		}
+		td {
+			outline: 1px solid black;
+			padding: 10px;
+		}
+		
+	</style>
 </head>
 <body>
 	<header class="menu">
@@ -11,7 +42,7 @@
 		<a href="players.html" class="menu-links">Players</a>
 		<a href="coaches.html" class="menu-links">Coaches</a>
 	</header>
-	
+
 	<h1>Players</h1>
 
 	<div>
@@ -76,7 +107,6 @@
 			</tr>
 			</tbody>
 		</table>
-		<button>Add Player</button>
 	</div>
 
 	<br>
@@ -146,8 +176,54 @@
 			</tbody>
 
 		</table>
-		<button>Add Player</button>
 	</div>
+
+<br>
+<br>
+<br>
+
+<form action="" method="post">
+	<div>
+		<label for="Name">First Name:</label>
+		<input type="text" id="name" name="div-name">
+	</div>
+	<div>
+		<label for="Name">Last Name:</label>
+		<input type="text" id="name" name="div-name">
+	</div>
+	<div>
+		<label for="Name">Height:</label>
+		<input type="text" id="name" name="div-name">
+	</div>
+	<div>
+		<label for="Name">Weight:</label>
+		<input type="text" id="name" name="div-name">
+	</div>
+	<div>
+		<label for="Name">Position:</label>
+		<input type="text" id="name" name="div-name">
+	</div>
+	<br>
+	<div class="button">
+		<button type="Submit">Add Player</button>
+	</div>
+	
+</form>
+<br>
+<br>
+<br>
+
+<form action="" method="post">
+	<div>
+		<label for="Name">Search for Player: </label>
+		<input type="text" id="name" name="div-name">
+	</div>
+	<br>
+	<div class="button">
+		<button type="Submit">Find Player</button>
+	</div>
+	
+</form>
 
 </body>
 </html>
