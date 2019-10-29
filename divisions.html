@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Divisions</title>
+	<!-- for debugging -->
+	<style type="text/css">
+		body {
+
+			margin: 0;
+			overflow: hidden;	
+		}
+		a {
+			color: #0000EE;
+		}
+		.menu {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			height: 10vh;
+		}
+		.menu-links {
+			padding: 2%;
+
+		}
+		
+		h1 {
+			text-align: center;
+		}
+		table {
+			text-align: center;
+			padding: 1%;
+		}
+
+		td {
+			outline: 1px solid black;
+			padding: 10px;
+		}
+
+
+		
+	</style>
+</head>
+<body>
+	<header class="menu">
+		<a href="index.html" class="menu-links">Home</a>
+		<a href="divisions.html" class="menu-links">Divisions</a>
+		<a href="teams.html" class="menu-links">Teams</a>
+		<a href="players.html" class="menu-links">Players</a>
+		<a href="coaches.html" class="menu-links">Coaches</a>
+		
+	</header>
+
+<h1>List of Divisions</h1>
+
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Edit</th>
+			<th>Delete</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Pacific</td>
+			<td><button>Edit</button></td>
+			<td><button>Delete</button></td>
+
+		</tr>
+		<tr>
+			<td>Northwest</td>
+			<td><button>Edit</button></td>
+			<td><button>Delete</button></td>
+
+		</tr>
+	
+	</tbody>
+</table>
+<br>
+<br>
+	<br>
+<form action="" method="post">
+	<div>
+		<label for="Name">Add Division:</label>
+		<input type="text" id="name" name="div-name">
+	</div>
+	<br>
+	<div class="button">
+		<button type="Submit">Add Division</button>
+	</div>
+	
+</form>
+<br>
+<br>
+<br>
+
+<form action="" method="post">
+	<div>
+		<label for="Name">Search for Division: </label>
+		<input type="text" id="name" name="div-name">
+	</div>
+	<br>
+	<div class="button">
+		<button type="Submit">Find Division</button>
+	</div>
+	
+</form>
+
+
+
+</body>
+</html>

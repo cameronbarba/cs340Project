@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teams</title>
+	<!-- for debugging -->
+	<style type="text/css">
+		body {
+
+			margin: 0;
+			overflow: hidden;	
+		}
+		a {
+			color: #0000EE;
+		}
+		.menu {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			height: 10vh;
+		}
+		.menu-links {
+			padding: 2%;
+
+		}
+		
+		h1 {
+			text-align: center;
+		}
+		table {
+			text-align: center;
+			padding: 1%;
+		}
+
+		td {
+			outline: 1px solid black;
+			padding: 10px;
+		}
+
+
+		
+	</style>
+</head>
+<body>
+	<header class="menu">
+		<a href="index.html" class="menu-links">Home</a>
+		<a href="divisions.html" class="menu-links">Divisions</a>
+		<a href="teams.html" class="menu-links">Teams</a>
+		<a href="players.html" class="menu-links">Players</a>
+		<a href="coaches.html" class="menu-links">Coaches</a>
+		
+	</header>
+
+<h1>List of Teams</h1>
+
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Location</th>
+			<th>Mascot</th>
+			<th>Jersey Colors</th>
+			<th>Division</th>
+			<th>Edit</th>
+			<th>Delete</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Lakers</td>
+			<td>Los Angeles</td>
+			<td>None</td>
+			<td>Purple, Gold</td>
+			<td>Pacific</td>
+			<td><button>Edit</button></td>
+			<td><button>Delete</button></td>
+
+		</tr>
+		<tr>
+			<td>Golden State Warriors</td>
+			<td>San Francisco</td>
+			<td>None</td>
+			<td>Royal Blue, Yellow</td>
+			<td>Pacific</td>
+			<td><button>Edit</button></td>
+			<td><button>Delete</button></td>
+
+		</tr>
+		<tr>
+			<td>Mavericks</td>
+			<td>Dallas</td>
+			<td>Champ, Mavs Man</td>
+			<td>Blue, Silver, Black</td>
+			<td>Southwest</td>
+			<td><button>Edit</button></td>
+			<td><button>Delete</button></td>
+
+		</tr>
+		<tr>
+			<td>Trailblazers</td>
+			<td>Portland</td>
+			<td>Blaze The Trail Cat</td>
+			<td>Red, Black, White </td>
+			<td>Northwest</td>
+			<td><button>Edit</button></td>
+			<td><button>Delete</button></td>
+
+		</tr>
+	</tbody>
+</table>
+
+<form action="" method="post">
+	<div>
+		<label for="Name">Name:</label>
+		<input type="text" id="name" name="div-name">
+	</div>
+	<div>
+		<label for="Name">Location:</label>
+		<input type="text" id="name" name="div-name">
+	</div>
+	<div>
+		<label for="Name">Mascot:</label>
+		<input type="text" id="name" name="div-name">
+	</div>
+	<div>
+		<label for="Name">Jersey Colors:</label>
+		<input type="text" id="name" name="div-name">
+	</div>
+	<div>
+		<label for="Name">Division:</label>
+		<input type="text" id="name" name="div-name">
+	</div>
+	<br>
+	<div class="button">
+		<button type="Submit">Add Team</button>
+	</div>
+	
+</form>
+<br>
+<br>
+<br>
+
+<form action="" method="post">
+	<div>
+		<label for="Name">Search for Team: </label>
+		<input type="text" id="name" name="div-name">
+	</div>
+	<br>
+	<div class="button">
+		<button type="Submit">Find Team</button>
+	</div>
+	
+</form>
+
+</body>
+</html>
